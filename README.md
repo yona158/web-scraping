@@ -20,3 +20,5 @@ BeautifulSoup from bs4 for parsing HTML content.
 
 `pip install beautifulsoup4`
 
+`pip install requests`
+
