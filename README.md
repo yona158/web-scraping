@@ -18,7 +18,5 @@ The following Python libraries:
 requests for making HTTP requests.
 BeautifulSoup from bs4 for parsing HTML content.
 
-`pip install requests`
-
 `pip install beautifulsoup4`
 
