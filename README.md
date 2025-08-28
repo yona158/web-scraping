@@ -51,14 +51,17 @@ Install requirements:
 
 
 **Usage**
+
 Run the scraper from the command line:
 
-```python scraper.py --start-url "http://books.toscrape.com/catalogue/category/books_1/index.html" \
+```
+python scraper.py --start-url "http://books.toscrape.com/catalogue/category/books_1/index.html" \
                   --min-price 10 \
                   --max-price 50 \
                   --csv output.csv \
                   --json output.json \
-                  --verbose ```
+                  --verbose
+```
 
 **Arguments**
 
@@ -80,7 +83,6 @@ Run the scraper from the command line:
 
 **Output**
 Example CSV file:
-
 Name	Rating	Price	Link
 
 A Light in the Attic	3	51.77	http://books.toscrape.com/a-light-in-the-attic_1000/index.html
@@ -102,5 +104,4 @@ Example JSON file:
 
 **Disclaimer**
 This project is for educational purposes only.
-
 The target site Books to Scrape is a demo website specifically created for practicing web scraping.
