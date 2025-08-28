@@ -82,6 +82,7 @@ python scraper.py --start-url "http://books.toscrape.com/catalogue/category/book
 --verbose → Enable detailed logging (DEBUG mode).
 
 **Output**
+
 Example CSV file:
 Name	Rating	Price	Link
 
@@ -103,5 +104,6 @@ Example JSON file:
 ```
 
 **Disclaimer**
+
 This project is for educational purposes only.
 The target site Books to Scrape is a demo website specifically created for practicing web scraping.
