@@ -1,15 +1,22 @@
 **Overview**
 
-This project is a Python-based web scraper designed to extract book data from the website [Books to Scrape](http://books.toscrape.com/). The scraper collects information about books including their names, ratings, prices, and links to their individual pages, and saves this data into a CSV file.
+This project is a Python-based web scraper that extract book data from the website [Books to Scrape](http://books.toscrape.com/).
+The scraper automatically traverses all pages, collects detailed information about each book, and allows filtering by price.
+The results can be saved into both CSV and JSON formats.
 
 **Features**
 
-Extracts the following details for each book on the page:
+Scrapes across multiple pages starting from a given URL.
+Extracts the following details for each book:
 Book Name
-Rating (converted to numerical format: 1 to 5 stars)
+Rating (converted into a numerical format: 1 to 5 stars)
 Price
 Link to the book's detail page
-Saves the scraped data into a CSV file (books to scrape.csv).
+Filters results based on a minimum and maximum price range.
+Saves the data into:
+A CSV file
+A JSON file (with UTF-8 encoding and pretty formatting)
+Built-in logging with optional verbose mode
 
 **Requirements**
 
